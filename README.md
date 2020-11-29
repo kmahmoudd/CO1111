@@ -1,4 +1,6 @@
 # CO1111
 The Computing Challenge project page
 
-this is my first readme file
+This is my first README file
+
+Experiencing Git from webstorm
