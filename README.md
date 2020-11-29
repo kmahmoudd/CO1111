@@ -1,2 +1,2 @@
 # CO1111
-computing skills 
+The Computing Challenge project page
