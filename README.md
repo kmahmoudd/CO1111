@@ -1,6 +1,7 @@
 # CO1111
-The Computing Challenge project page
+The Computing Challenge 2020 - Treasure Hunt Web App
 
-This is my first README file
-
-Experiencing Git from webstorm
+Team Members:
+Karim Mahmoud
+Demitris Elia
+Konstantinos Elia
