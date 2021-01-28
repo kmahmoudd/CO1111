@@ -1,0 +1,57 @@
+body{
+    background-color:lightblue;
+}
+.teammembers {
+    font-size:35px;
+    position: absolute;
+    top: 45px;
+    margin-left:230px;
+    border-radius: 30px;
+    border: 10px solid darkblue;
+}
+
+.teamnames{
+    position:absolute;
+    font-size:30px;
+    margin-left: 380px;
+    text-align:center;
+    top:220px;
+}
+
+.info{
+    position:absolute;
+    font-size:40px;
+    margin-left: 25px;
+    top:390px;
+}
+
+.textinfo{
+
+    position:absolute;
+    font-size:30px;
+    margin-left: 15px;
+    top:490px;
+
+}
+.twitter{
+    position:absolute;
+    height:350px;
+    width:90%;
+    margin-top:770px;
+    margin-left:35px;
+
+}
+
+.Play {
+    position: absolute;
+    font-size: 90px;
+    color: white;
+    border-radius: 50px;
+    border: 3px solid purple;
+    background-color: blueviolet;
+    top: 1270px;
+    margin-left: 310px;
+}
+.PlayNow{
+    text-decoration:none;
+}
