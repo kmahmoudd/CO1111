@@ -55,3 +55,42 @@ body{
 .PlayNow{
     text-decoration:none;
 }
+
+.Notes{
+    position: absolute;
+    font-size: 90px;
+    color: white;
+    border-radius: 50px;
+    border: 3px solid purple;
+    background-color: blueviolet;
+    top: 1400px;
+    margin-left: 390px
+}
+
+.Notes1{
+    text-decoration:none;
+}
+.NotesTitle{
+    top:20px;
+    position:absolute;
+    font-size:90px;
+    margin-left:350px;
+}
+
+.NotesText{
+    position:absolute;
+    font-size:45px;
+    top:160px;
+}
+.Problems{
+    position:absolute;
+    font-size:90px;
+    top:780px;
+}
+.ProblemsText{
+    position:absolute;
+    font-size:45px;
+    top: 930px;
+
+}
+
