@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="">
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="created links in the Availabletreasurehunt page with the available treasure hunts in the link &quot;https://codecyprus.org/th/api/list&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LandingPage/TreasureHunts.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,7 +68,7 @@
       <updated>1611850429167</updated>
       <workItem from="1611850431164" duration="639000" />
       <workItem from="1612174166618" duration="971000" />
-      <workItem from="1612265566027" duration="1493000" />
+      <workItem from="1612265566027" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -69,16 +91,41 @@
       <option name="project" value="LOCAL" />
       <updated>1612175127625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created links in the Availabletreasurehunt page with the available treasure hunts in the link &quot;https://codecyprus.org/th/api/list&quot;">
+      <created>1612267422903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612267422903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added an information section a twitter section and a button thats going to be used to load the challengers on app page" />
     <MESSAGE value="Created a css for the landing page." />
     <MESSAGE value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
+    <MESSAGE value="created links in the Availabletreasurehunt page with the available treasure hunts in the link &quot;https://codecyprus.org/th/api/list&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="created links in the Availabletreasurehunt page with the available treasure hunts in the link &quot;https://codecyprus.org/th/api/list&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1612267440972">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1612267440972" />
   </component>
 </project>
