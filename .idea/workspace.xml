@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="" />
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/LandingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +46,14 @@
       <option name="presentableId" value="Default" />
       <updated>1611850429167</updated>
       <workItem from="1611850431164" duration="639000" />
-      <workItem from="1612174166618" duration="971000" />
+      <workItem from="1612174166618" duration="1080000" />
+      <workItem from="1612265174518" duration="8000" />
+      <workItem from="1612335778817" duration="596000" />
+      <workItem from="1612336611715" duration="595000" />
+      <workItem from="1613912516695" duration="17000" />
+      <workItem from="1613912555194" duration="15000" />
+      <workItem from="1613983448588" duration="48000" />
+      <workItem from="1613983874846" duration="7593000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -64,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612175127625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Available treasure hunts page">
+      <created>1612175155168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612175155168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +93,8 @@
     <MESSAGE value="Added an information section a twitter section and a button thats going to be used to load the challengers on app page" />
     <MESSAGE value="Created a css for the landing page." />
     <MESSAGE value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
+    <MESSAGE value="Available treasure hunts page" />
+    <MESSAGE value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
   </component>
 </project>
