@@ -1,47 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b33172d-b110-4344-a742-38cdd1a04f11" name="Default Changelist" comment="">
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Leaderboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1pQwcDCm030ZtWeICjOv7YpNsUJ" />
+  <component name="ProjectId" id="1nhluvnpklC8MOOQTyUv1zgXumY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App" />
+      <recent name="$PROJECT_DIR$/CSS" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b33172d-b110-4344-a742-38cdd1a04f11" name="Default Changelist" comment="" />
-      <created>1615128699759</created>
+      <changelist id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="" />
+      <created>1611850429167</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615128699759</updated>
-      <workItem from="1615128701167" duration="42000" />
-      <workItem from="1615128747791" duration="348000" />
+      <updated>1611850429167</updated>
+      <workItem from="1611850431164" duration="639000" />
+      <workItem from="1612174166618" duration="1080000" />
+      <workItem from="1612265174518" duration="8000" />
+      <workItem from="1612335778817" duration="596000" />
+      <workItem from="1612336611715" duration="595000" />
+      <workItem from="1613912516695" duration="17000" />
+      <workItem from="1613912555194" duration="15000" />
+      <workItem from="1613983448588" duration="48000" />
+      <workItem from="1613983874846" duration="7593000" />
+      <workItem from="1614011399296" duration="8672000" />
+      <workItem from="1614037900865" duration="7000" />
+      <workItem from="1614037926284" duration="26000" />
+      <workItem from="1614038290626" duration="7646000" />
+      <workItem from="1614727723741" duration="49201000" />
+      <workItem from="1615129912278" duration="215000" />
+      <workItem from="1615130145476" duration="2191000" />
     </task>
+    <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
+      <created>1611850715745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850715745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created a css for the landing page.">
+      <created>1611850840672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611850840672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts">
+      <created>1612175127625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612175127625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Available treasure hunts page">
+      <created>1612175155168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612175155168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,5 +132,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an information section a twitter section and a button thats going to be used to load the challengers on app page" />
+    <MESSAGE value="Created a css for the landing page." />
+    <MESSAGE value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
+    <MESSAGE value="Available treasure hunts page" />
+    <MESSAGE value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="175" key="SettingsEditor" timestamp="1614944702991">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1614944702991" />
+    <state x="100" y="128" width="1480" height="822" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615129909262">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="128" width="1480" height="822" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1615129909262" />
+    <state x="641" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615129967779">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="641" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.1025@0.25.1680.1025" timestamp="1615129967779" />
+    <state x="505" y="252" width="670" height="660" key="search.everywhere.popup" timestamp="1615132173791">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1615116529136" />
+    <state x="505" y="252" width="670" height="660" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1615132173791" />
   </component>
 </project>

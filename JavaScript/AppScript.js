@@ -1,9 +1,9 @@
- let appName = "team7";
+    let appName = "team7";
     let URL  = "https://codecyprus.org/th/api/";
     let treasureHuntID;
     let sessionID;
     const params = new URLSearchParams(location.search);
-    let score = 0;
+    let score;
     let answers = document.getElementById("answers");
     let sortType = "sorted";
     let limit = "5";
@@ -19,7 +19,7 @@
                     let treasureHunts = jsonObject.treasureHunts;
                     for (let i = 0; i < treasureHunts.length; i++) {
                         let listItem = document.createElement("li");
-                        listItem.innerHTML = "<a href=" + treasureHunts[i].uuid + "'../App/Start.html?treasure-hunt-id='>" + treasureHunts[i].name + "</a>";
+                        listItem.innerHTML = "<a href='../App/Start.html?treasure-hunt-id="+ treasureHunts[i].uuid + "'>" + treasureHunts[i].name + "</a>";
                         challengesList.appendChild(listItem);
                     }
                 }else {
@@ -36,8 +36,7 @@
         fetch(StartURL)
             .then(response => response.json())
             .then(jsonObject => {
-                let sessionStatus = jsonObject.status;
-                if (sessionStatus === "OK"){
+                if (jsonObject.status === "OK"){
                     sessionID = jsonObject.session;
 
                     //go to questions with two data session id and the number of questions
@@ -45,9 +44,7 @@
                 }
                 else {
                     console.log("cannot obtain session id")
-                    //todo - show appropriate error message to the user
                     document.getElementById("errorMessage").innerText = jsonObject.errorMessages;
-
                 }
             })
     }
@@ -79,6 +76,7 @@
                         }
 
                         getAnswers(jsonObject);
+                        getScore();
 
                     }else {
                         location.assign("Leaderboard.html?session=" + sessionID);
@@ -114,7 +112,6 @@
         userAnswer = String(userAnswer);
         console.log("checking answer : " + userAnswer);
 
-
         fetch(URL + "answer?session=" + sessionID + "&answer=" + userAnswer)
             .then(response => response.json())
             .then(jsonObject => {
@@ -122,11 +119,12 @@
                 // if status is fine
                 if (jsonObject.status === "OK"){
 
+                    //todo - should calculate score
                     if (jsonObject.correct === true){
 
-                        getScore();
                         feedbackTV = document.getElementById("feedback");
                         feedbackTV.innerText = jsonObject.message;
+                        getScore();
                         getQuestions();
 
                     }else if (jsonObject.correct === false){
@@ -292,7 +290,8 @@
 
                 // if status is fine
                 if (jsonObject.status === "OK"){
-                    score =  jsonObject.score
+                    console.log(score);
+                    score =  jsonObject.score;
                     document.getElementById("scoreLabel").innerText = "Score: " + score;
 
                 }
@@ -301,6 +300,7 @@
     function getLeaderboard(){
         sessionID = params.get("session");
 
+        //todo sort-type and limit should be changed by buttons
         console.log(sortType);
         console.log(limit);
 
@@ -309,23 +309,25 @@
             .then(jsonObject => {
                 if (jsonObject.status === "OK"){
 
-                    document.getElementById("treasurehuntId").innerText = jsonObject.treasureHuntName;
+                    document.getElementById("treasurehuntId").innerText = jsonObject.treasureHuntName + " leaderboards";
 
                     let leaderboardList = document.getElementById("leaderBoard");
                     //empty the list
                     leaderboardList.innerHTML = "";
                     let leaderboard = jsonObject.leaderboard;
                     for (let i = 0; i < leaderboard.length; i++) {
-                        let listItem = document.createElement("li");
+                        //todo - could be changed to table
+                        listItem = document.createElement("li");
                         listItem.innerText = "Player: " + leaderboard[i].player + ", Score: " + leaderboard[i].score + ", Time: " + String(leaderboard[i].completionTime/60000000000);
                         leaderboardList.appendChild(listItem);
                     }
                 }else{
-                    //todo show right error
-                    console.log(jsonObject.errorMessages);
+                    console.log("cannot get leaderboards");
+                    document.getElementById("errorMessage").innerText = jsonObject.errorMessages;
                 }
             })
 
     }
+    //todo get location
 
 
