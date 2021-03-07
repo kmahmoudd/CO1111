@@ -1,6 +1,4 @@
-
-
-    let appName = "team7";
+ let appName = "team7";
     let URL  = "https://codecyprus.org/th/api/";
     let treasureHuntID;
     let sessionID;
@@ -21,7 +19,7 @@
                     let treasureHunts = jsonObject.treasureHunts;
                     for (let i = 0; i < treasureHunts.length; i++) {
                         let listItem = document.createElement("li");
-                        listItem.innerHTML = "<a href='Start.html?treasure-hunt-id=" + treasureHunts[i].uuid + "'>" + treasureHunts[i].name + "</a>";
+                        listItem.innerHTML = "<a href=" + treasureHunts[i].uuid + "'../App/Start.html?treasure-hunt-id='>" + treasureHunts[i].name + "</a>";
                         challengesList.appendChild(listItem);
                     }
                 }else {
