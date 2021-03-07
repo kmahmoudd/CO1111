@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../JavaScript/AppScript.js"></script>
+</head>
+<body>
+
+<h1>Start</h1>
+
+<p>Enter player name or nickname to play the treasure hunt: </p>
+
+<div id="startForm" name="startForm">
+<label for="nickName">Nick Name:</label>
+
+<input type="text" id="nickName" name="playerName" onsubmit="start()">
+    </br>
+<input type="Button" value="Start!" onclick="start()">
+</div>
+
+<p id="errorMessage" style="color: red"></p>
+</body>
+</html>
