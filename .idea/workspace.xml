@@ -13,11 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="fixed a major issue in the AppScript">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text.">
       <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +35,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nhluvnpklC8MOOQTyUv1zgXumY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1614727723741" duration="49201000" />
       <workItem from="1615129912278" duration="215000" />
       <workItem from="1615130145476" duration="4636000" />
-      <workItem from="1615137652912" duration="7023000" />
+      <workItem from="1615137652912" duration="7569000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615135300986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text.">
+      <created>1615149707649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615149707649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,13 +152,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added an information section a twitter section and a button thats going to be used to load the challengers on app page" />
     <MESSAGE value="Created a css for the landing page." />
     <MESSAGE value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
     <MESSAGE value="Available treasure hunts page" />
     <MESSAGE value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
     <MESSAGE value="fixed a major issue in the AppScript" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a major issue in the AppScript" />
+    <MESSAGE value="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text." />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text." />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="175" key="SettingsEditor" timestamp="1614944702991">

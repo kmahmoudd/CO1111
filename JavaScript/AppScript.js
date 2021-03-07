@@ -24,7 +24,7 @@
                         challengesList.appendChild(listItem);
                     }
                 }else {
-                    //todo show right error
+                    document.getElementById("errorMessage").innerText = jsonObject.errorMessages;
                     console.log("cannot get challenges");
                 }
             });
@@ -117,7 +117,6 @@
                 // if status is fine
                 if (jsonObject.status === "OK"){
 
-                    //todo - should calculate score
                     if (jsonObject.correct === true){
 
                         document.getElementById("feedback").innerText = jsonObject.message + " you earned " + jsonObject.scoreAdjustment + " points.";
@@ -305,7 +304,6 @@
 
         getScore();
 
-        //todo sort-type and limit should be changed by buttons
         console.log(sortType);
         console.log(limit);
 
@@ -354,11 +352,11 @@
     }
     function setLocation() {
         if (navigator.geolocation) {
-            //TODO - Geolocation is supported by browser.
+            //Geolocation is supported by browser.
             navigator.geolocation.getCurrentPosition(getLocation);
         }
         else {
-            //TODO - Geolocation is NOT supported by browser
+            //Geolocation is NOT supported by browser
             alert("Geolocation is not supported by your browser.");
         }
     }
