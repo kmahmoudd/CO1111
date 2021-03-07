@@ -8,15 +8,14 @@
 </head>
 <body>
 <script>
-    getScore();
     getLeaderboard();
 </script>
 <h1>Finished!</h1>
 <P id="congratstxt">congratulations /playername on finishing /treasurehuntname, your final score is /score</P>
 <h2 id="treasurehuntId">Treasure Hunt Name</h2>
-<button id="sort">Sort List</button>
-<button id="top10">show top 10</button>
-<ul id="leaderBoard"></ul>
+<button id="reload" onclick="getLeaderboard()">Reload</button>
+<button id="reset" onclick="location.assign('AvailableTreasureHunts.html')">Play Again!</button>
+<ol id="leaderBoard"></ol>
 <p id="errorMessage" style="color: red"></p>
 </body>
 </html>

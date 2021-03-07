@@ -1,12 +1,13 @@
-    let appName = "team7";
-    let URL  = "https://codecyprus.org/th/api/";
-    let treasureHuntID;
-    let sessionID;
     const params = new URLSearchParams(location.search);
-    let score;
     let answers = document.getElementById("answers");
+    const URL  = "https://codecyprus.org/th/api/";
+    const appName = "team7";
     let sortType = "sorted";
     let limit = "5";
+    let treasureHuntID;
+    let sessionID;
+    let score;
+
 
     function getChallenges(){
         fetch(URL + "list")
@@ -68,23 +69,20 @@
                         questionNumberLabel.innerText = "Question Number: " + String(jsonObject.currentQuestionIndex+1);
 
                         let skipButton = document.getElementById("skipButton");
-                        if (jsonObject.canBeSkipped === false){
-                            skipButton.disabled = true;
-                            document.getElementById("feedback").innerText = "This question can NOT be skipped";
-                        }else {
-                            skipButton.disabled = false;
-                        }
+                        skipButton.disabled = jsonObject.canBeSkipped === false;
+                        
+                        if (jsonObject.requiresLocation === true){ setLocation(); }
 
                         getAnswers(jsonObject);
                         getScore();
 
                     }else {
                         location.assign("Leaderboard.html?session=" + sessionID);
-                        console.log("no more Qeustions");
+                        console.log("no more Questions");
                     }
 
                 }else {
-                    console.log("cannot get qeustions")
+                    console.log("cannot get questions")
                     document.getElementById("errorMessage").innerText = jsonObject.errorMessages;
                 }
             })
@@ -97,8 +95,8 @@
             .then(response=> response.json())
             .then(jsonObject => {
                 if (jsonObject.status === "OK"){
-                    getScore();
-                    document.getElementById("feedback").innerText = jsonObject.message;
+                    getScore()
+                    document.getElementById("feedback").innerText = jsonObject.message + " you lost " + jsonObject.scoreAdjustment + " points.";
                     getQuestions();
                 }else{
                     console.log("Cannot skip. This questions is defined as one that cannot be skipped.")
@@ -122,16 +120,16 @@
                     //todo - should calculate score
                     if (jsonObject.correct === true){
 
-                        feedbackTV = document.getElementById("feedback");
-                        feedbackTV.innerText = jsonObject.message;
+                        document.getElementById("feedback").innerText = jsonObject.message + " you earned " + jsonObject.scoreAdjustment + " points.";
                         getScore();
+                        document.getElementById("scoreLabel").innerText = "Score: " + score;
                         getQuestions();
 
                     }else if (jsonObject.correct === false){
 
-                        document.getElementById("feedback").innerText = jsonObject.message;
-                        getQuestions();
+                        document.getElementById("feedback").innerText = jsonObject.message + ", you lost " + jsonObject.scoreAdjustment + " points.";
                         getScore();
+                        getQuestions();
 
                     }else {
                         console.log("treasure hunt ended");
@@ -290,15 +288,22 @@
 
                 // if status is fine
                 if (jsonObject.status === "OK"){
-                    console.log(score);
-                    score =  jsonObject.score;
-                    document.getElementById("scoreLabel").innerText = "Score: " + score;
 
+                    score =  jsonObject.score;
+                    console.log("score: " + score);
+
+                    if (jsonObject.completed === true || jsonObject.finished === true) {
+                        document.getElementById("congratstxt").innerText = "Congratulations " + jsonObject.player + ", your final score is " + score;
+                    }else {
+                        document.getElementById("scoreLabel").innerText = "Score: " + score;
+                    }
                 }
             })
     }
     function getLeaderboard(){
         sessionID = params.get("session");
+
+        getScore();
 
         //todo sort-type and limit should be changed by buttons
         console.log(sortType);
@@ -318,7 +323,11 @@
                     for (let i = 0; i < leaderboard.length; i++) {
                         //todo - could be changed to table
                         listItem = document.createElement("li");
-                        listItem.innerText = "Player: " + leaderboard[i].player + ", Score: " + leaderboard[i].score + ", Time: " + String(leaderboard[i].completionTime/60000000000);
+                        let time = new Date(leaderboard[i].completionTime*1000);
+                        let hours = time.getHours();
+                        let minutes = time.getMinutes();
+                        let seconds = time.getSeconds();
+                        listItem.innerText = "Player: " + leaderboard[i].player + ", Score: " + leaderboard[i].score + ", Completed on: " + hours + ":" + minutes + ":" + seconds;
                         leaderboardList.appendChild(listItem);
                     }
                 }else{
@@ -326,8 +335,77 @@
                     document.getElementById("errorMessage").innerText = jsonObject.errorMessages;
                 }
             })
-
     }
-    //todo get location
+    function getLocation(position) {
+
+            let latitude = position.coords.latitude;
+            let longtitude = position.coords.longitude;
+            console.log("latitude = " + latitude );
+            console.log("longtitude = " + longtitude );
+            fetch(URL + "location?session=" + sessionID + "&latitude=" + latitude + "&longitude=" + longtitude )
+                .then(response => response.json())
+                .then(jsonObject => {
+                    if (jsonObject.status === "OK"){
+                        console.log(jsonObject.message);
+                    }else{
+                        alert(jsonObject.errorMessages);
+                    }
+                })
+    }
+    function setLocation() {
+        if (navigator.geolocation) {
+            //TODO - Geolocation is supported by browser.
+            navigator.geolocation.getCurrentPosition(getLocation);
+        }
+        else {
+            //TODO - Geolocation is NOT supported by browser
+            alert("Geolocation is not supported by your browser.");
+        }
+    }
+    function scan(){
+            var opts = {
+            // Whether to scan continuously for QR codes. If false, use scanner.scan() to
+            // manually scan. If true, the scanner emits the "scan" event when a QR code is
+            // scanned. Default true.
+                continuous: true,
+            // The HTML element to use for the camera's video preview. Must be a <video>
+            // element. When the camera is active, this element will have the "active" CSS
+            // class, otherwise, it will have the "inactive" class. By default, an invisible
+            // element will be created to host the video.
+                video: document.getElementById('preview'),
+            // Whether to horizontally mirror the video preview. This is helpful when trying to
+            // scan a QR code with a user-facing camera. Default true.
+                mirror: true,
+            // Whether to include the scanned image data as part of the scan result. See the
+            // "scan" event for image format details. Default false.
+                captureImage: false,
+            // Only applies to continuous mode. Whether to actively scan when the tab is not
+            // active.
+            // When false, this reduces CPU usage when the tab is not active. Default true.
+                backgroundScan: true,
+            // Only applies to continuous mode. The period, in milliseconds, before the same QR
+            // code will be recognized in succession. Default 5000 (5 seconds).
+                refractoryPeriod: 5000,
+            // Only applies to continuous mode. The period, in rendered frames, between scans. A
+            // lower scan period increases CPU usage but makes scan response faster.
+            // Default 1 (i.e. analyze every frame).
+                scanPeriod: 1
+            };
+            var scanner = new Instascan.Scanner(opts);
+            Instascan.Camera.getCameras().then(function (cameras) {
+                if (cameras.length > 0) {
+                    scanner.start(cameras[0]);
+                } else {
+                    console.error('No cameras found.');
+                    alert("No cameras found."); }
+            }).catch(function (e) { console.error(e);
+            });
+            scanner.addListener('scan', function (content) {
+                console.log(content);
+                document.getElementById("content").innerHTML = content;
+                scanner.stop();
+            });
+    }
+
 
 

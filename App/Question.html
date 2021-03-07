@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Qeustion</title>
+    <title>Question</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JavaScript/AppScript.js"></script>
+    <script src="../JavaScript/instascan.min.js"></script>
 </head>
 <body>
 <script>
     getQuestions();
+    setInterval(setLocation, 30000);
 </script>
 
 <p id="scoreLabel">Score: 0</p>
 <p id="questionNumber">question number</p>
-
-
 <p id="question"><strong>question text</strong></p>
 
-<div id="answers">
+<div id="answers"></div>
 
-</div>
-
-<button id="skipButton" onclick="skip()">Skip</button>
 <p id="feedback"></p>
 <p id="errorMessage" style="color: red"></p>
+
+<button id="skipButton" onclick="skip()">Skip</button>
+<button id="scanButton" onclick="scan()">Scan</button>
+
+<div style="margin: 20px; padding: 20px; background-color: black; color: white; text-align:center;" id="content"></div>
+<video id="preview"></video>
+
+
 
 </body>
 </html>
