@@ -13,8 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text.">
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +91,7 @@
       <workItem from="1614727723741" duration="49201000" />
       <workItem from="1615129912278" duration="215000" />
       <workItem from="1615130145476" duration="4636000" />
-      <workItem from="1615137652912" duration="7569000" />
+      <workItem from="1615137652912" duration="9433000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615149707649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts">
+      <created>1615150043610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615150043610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +169,18 @@
     <MESSAGE value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
     <MESSAGE value="fixed a major issue in the AppScript" />
     <MESSAGE value="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text." />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text." />
+    <MESSAGE value="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts" />
+    <option name="LAST_COMMIT_MESSAGE" value="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="175" key="SettingsEditor" timestamp="1614944702991">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="175" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1614944702991" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615135310364">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615150050493">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1615135310364" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1615150050493" />
     <state x="100" y="128" width="1480" height="822" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615129909262">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

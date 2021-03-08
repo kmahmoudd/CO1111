@@ -403,6 +403,13 @@
                 document.getElementById("content").innerHTML = content;
                 scanner.stop();
             });
+            let cancelButton = document.createElement("button");
+                cancelButton.innerText = "Cancel";
+            cancelButton.onclick = function (){
+                scanner.stop();
+                document.getElementById("camera").removeChild(cancelButton);
+            };
+            document.getElementById("camera").appendChild(cancelButton);
     }
 
 
