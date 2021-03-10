@@ -13,11 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="Made designs for all pages, elements and questions.">
+      <change afterPath="$PROJECT_DIR$/ContactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +91,12 @@
       <workItem from="1614727723741" duration="49201000" />
       <workItem from="1615129912278" duration="215000" />
       <workItem from="1615130145476" duration="2191000" />
+      <workItem from="1615135544839" duration="8856000" />
+      <workItem from="1615192691541" duration="9659000" />
+      <workItem from="1615287419892" duration="87000" />
+      <workItem from="1615304845562" duration="1403000" />
+      <workItem from="1615327800357" duration="1762000" />
+      <workItem from="1615360074562" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -140,25 +150,7 @@
     <MESSAGE value="Created two buttons on the landing page one linked to a notes page and the other to the available treasure hunts" />
     <MESSAGE value="Available treasure hunts page" />
     <MESSAGE value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="349" y="175" key="SettingsEditor" timestamp="1614944702991">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="349" y="175" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1614944702991" />
-    <state x="100" y="128" width="1480" height="822" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615129909262">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="100" y="128" width="1480" height="822" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1615129909262" />
-    <state x="641" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615129967779">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="641" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.1025@0.25.1680.1025" timestamp="1615129967779" />
-    <state x="505" y="252" width="670" height="660" key="search.everywhere.popup" timestamp="1615132173791">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1615116529136" />
-    <state x="505" y="252" width="670" height="660" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1615132173791" />
+    <MESSAGE value="Made designs for all pages, elements and questions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made designs for all pages, elements and questions." />
   </component>
 </project>

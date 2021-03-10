@@ -8,17 +8,30 @@
     <script src="../JavaScript/AppScript.js"></script>
 </head>
 <body>
+
+<ul>
+    <li><a href="http://localhost:63342/New%20folder/Index.html?_ijt=kbt1gi4v8tkln5n1u4vkq">Home</a></li>
+    <li><a href="http://localhost:63342/New%20folder/ContactUs.html?_ijt=3dhtq6v0hqot56ddh8uf4q6huu">Contact Us :</a></li>
+    <li><a href="http://localhost:63342/New%20folder/Notes.html?_ijt=v9c1i58p0dlfphkofq727q54h6">Notes</a></li>
+</ul>
+
 <script>
     getChallenges();
 </script>
 
+<div class="allchallenges">
 <h1>All Challenges</h1>
+</div>
 
-<button type="button" onclick="getChallenges()">Refresh</button>
+<button class="refreshBTN" type="button" onclick="getChallenges()">Refresh</button>
 
-<p>Available Challenges:</p>
 
+<div class="challenges">
+    <p>Available Challenges</p>
+</div>
+
+<div class="challenges1">
 <ul id="challenges"></ul>
-
+</div>
 </body>
 </html>

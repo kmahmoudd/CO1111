@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Start</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JavaScript/AppScript.js"></script>
 </head>
 <body>
+<ul>
+    <li><a href="http://localhost:63342/New%20folder/Index.html?_ijt=kbt1gi4v8tkln5n1u4vkq">Home</a></li>
 
+</ul>
+<div class="start">
 <h1>Start</h1>
+</div>
 
-<p>Enter player name or nickname to play the treasure hunt: </p>
+<div class="entername">
+<p>Please enter your nickname in order to begin the quiz </p>
+</div>
 
-<div id="startForm">
+<div class="NickName" id="startForm">
 <label for="nickName">Nick Name:</label>
 
 <input type="text" id="nickName" name="playerName" onsubmit="start()">
-    </br>
-<input type="Button" value="Start!" onclick="start()">
+    <br>
+
+<input class="startbutton" type="Button" value="Start!" onclick="start()">
 </div>
 
 <p id="errorMessage" style="color: red"></p>

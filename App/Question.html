@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Qeustion</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JavaScript/AppScript.js"></script>
 </head>
@@ -11,18 +12,18 @@
     getQuestions();
 </script>
 
-<p id="scoreLabel">Score: 0</p>
-<p id="questionNumber">question number</p>
+<p class="score" id="scoreLabel">Score: 0</p>
+<p class="qnum" id="questionNumber">question number</p>
 
 
-<p id="question"><strong>question text</strong></p>
+<p class="questiontext" id="question"><strong>question text</strong></p>
 
-<div id="answers">
+<div class="answerbox" id="answers">
 
 </div>
 
-<button id="skipButton" onclick="skip()">Skip</button>
-<p id="feedback"></p>
+<button class="skipbutton" id="skipButton" onclick="skip()">Skip</button>
+<p class="ans" id="feedback"></p>
 <p id="errorMessage" style="color: red"></p>
 
 </body>
