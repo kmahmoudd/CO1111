@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Leaderboard</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JavaScript/AppScript.js"></script>
 </head>
@@ -13,9 +14,9 @@
 <h1>Finished!</h1>
 <P id="congratstxt">congratulations /playername on finishing /treasurehuntname, your final score is /score</P>
 <h2 id="treasurehuntId">Treasure Hunt Name</h2>
-<button id="reload" onclick="getLeaderboard()">Reload</button>
-<button id="reset" onclick="location.assign('AvailableTreasureHunts.html')">Play Again!</button>
-<ol id="leaderBoard"></ol>
+<button class="ReloadBTN" id="reload" onclick="getLeaderboard()">Reload</button>
+<button class="PlayagainBTN" id="reset" onclick="location.assign('AvailableTreasureHunts.html')">Play Again!</button>
+<ol class="Leaderboard" id="leaderBoard"></ol>
 <p id="errorMessage" style="color: red"></p>
 </body>
 </html>

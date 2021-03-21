@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Question</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../JavaScript/AppScript.js"></script>
     <script src="../JavaScript/instascan.min.js"></script>
@@ -13,31 +14,31 @@
     setInterval(setLocation, 30000);
 </script>
 
-<!--<p id="scoreLabel">Score: 0</p>-->
-<!--<p id="questionNumber">question number</p>-->
-<!--<p id="question"><strong>question text</strong></p>-->
+
+
 <p class="score" id="scoreLabel">Score: 0</p>
+
 <p class="qnum" id="questionNumber">question number</p>
 
 
 <p class="questiontext" id="question"><strong>question text</strong></p>
 
 <!--<div id="answers"></div>-->
-<div class="answerbox" id="answers">
+<div class="answerbox" id="answers"> </div>
 
-<p id="feedback"></p>
-</div>
+
 
 <button class="skipbutton" id="skipButton" onclick="skip()">Skip</button>
-<!--<p class="ans" id="feedback"></p>-->
+
+
+
+<button class="scanbutton" id="scanButton" onclick="scan()">Scan</button>
+<p class="ans" id="feedback"></p>
 <p id="errorMessage" style="color: red"></p>
-
-<!--<button id="skipButton" onclick="skip()">Skip</button>-->
-<button id="scanButton" onclick="scan()">Scan</button>
-
 <div style="margin: 20px; padding: 20px; background-color: black; color: white; text-align:center;" id="content"></div>
+
 <div id="camera">
-<video id="preview"></video>
+<video height="350" width="400" id="preview"></video>
 </div>
 
 </body>
