@@ -13,18 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="Tried to fix all the small problems we had that i read from the feedback. Tried to make the landing page a bit more tidy added what everyone's role is">
-      <change afterPath="$PROJECT_DIR$/UnitTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserAcceptance.html" afterDir="false" />
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/ContactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UnitTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAcceptance.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserAcceptance.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Konstantinos Elia\WebstormProjects\New folder\App" />
       <recent name="$PROJECT_DIR$/App" />
       <recent name="$PROJECT_DIR$/CSS" />
     </key>
@@ -113,7 +111,16 @@
       <workItem from="1615932870354" duration="8163000" />
       <workItem from="1615964880388" duration="822000" />
       <workItem from="1616179466346" duration="753000" />
-      <workItem from="1616327145612" duration="8898000" />
+      <workItem from="1616327145612" duration="9129000" />
+      <workItem from="1616337563680" duration="417000" />
+      <workItem from="1616338030420" duration="63000" />
+      <workItem from="1616342751754" duration="140000" />
+      <workItem from="1616346498445" duration="647000" />
+      <workItem from="1616347297310" duration="12000" />
+      <workItem from="1616353111229" duration="62000" />
+      <workItem from="1616355396999" duration="274000" />
+      <workItem from="1616360712784" duration="73000" />
+      <workItem from="1616405291764" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612175155168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive">
+      <created>1616337394615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616337394615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +185,7 @@
     <MESSAGE value="fixed a major issue in the AppScript" />
     <MESSAGE value="implemented location and scanner. fixed the time in leaderboards as well as added a congrats text." />
     <MESSAGE value="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts" />
-    <option name="LAST_COMMIT_MESSAGE" value="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts" />
+    <MESSAGE value="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive" />
   </component>
 </project>
