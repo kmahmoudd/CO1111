@@ -13,11 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="TEST">
+    <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/UnitTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UnitTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/UserAcceptance.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserAcceptance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" afterDir="false" />
@@ -124,7 +125,8 @@
       <workItem from="1616412496319" duration="1144000" />
       <workItem from="1616413652573" duration="14000" />
       <workItem from="1616414833127" duration="9202000" />
-      <workItem from="1616424349467" duration="2273000" />
+      <workItem from="1616424349467" duration="7430000" />
+      <workItem from="1616432542833" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616412810959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Karim : added cookies and more information about available treasure hunts.&#10;Konstantinos : fixed major design problems.">
+      <created>1616427650663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616427650663</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +207,7 @@
     <MESSAGE value="appropriate error message now shows in case something goes wrong in AvailableTreasureHunts" />
     <MESSAGE value="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive" />
     <MESSAGE value="TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST" />
+    <MESSAGE value="Karim : added cookies and more information about available treasure hunts.&#10;Konstantinos : fixed major design problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Karim : added cookies and more information about available treasure hunts.&#10;Konstantinos : fixed major design problems." />
   </component>
 </project>

@@ -217,8 +217,14 @@
     }
 
     .answerbox {
-        margin-top: 10%;
-        margin-left: 7%;
+        font-size: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: orangered;
+        border-radius: 20px;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
     }
 
     .camera {
@@ -267,7 +273,7 @@
     }
 
     .Leaderboard {
-
+        text-align:left;
         font-size: 25px;
 
     }
@@ -284,11 +290,11 @@
     }
 
 .table{
-    margin-left:10px;
+
     font-size:12px;
     width:90%;
     margin-left:4%;
-    background-color:orangered;
+    background-color:white;
 }
 
 .TestingText{
@@ -305,7 +311,7 @@
         color:#ffffff;
         font-size:15px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #283966;
+        text-shadow:1px 1px 1px #283966;
         left:10%;
         padding: 15px 32px;
     }
@@ -319,12 +325,135 @@
         color:#ffffff;
         font-size:15px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #283966;
+        text-shadow:1px 1px 1px #283966;
         margin-left:37%;
         padding: 15px 32px;
         right:10%;
 
     }
+    .TrueButton{
+
+
+        background-color:white;
+        border-radius:3px;
+        border:3px solid green;
+        left:10%;
+        cursor:pointer;
+        color:green;
+
+        font-size:19px;
+        padding:12px 37px;
+        text-decoration:none;
+
+        text-shadow:1px 1px 1px #283966;
+    }
+    .FalseButton{
+        background-color:white;
+        border-radius:3px;
+        border:3px solid darkred;
+        cursor:pointer;
+        color:darkred;
+
+        font-size:19px;
+        padding:12px 37px;
+
+        text-decoration:none;
+        text-shadow:1px 1px 1px #283966;
+
+    }
+    .SubmitNum{
+        background-color:orangered;
+        border-radius:1px;
+        border:3px solid black;
+        font-size:20px;
+        color:white;
+    }
+
+    .acceptint{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: lightsalmon;
+        border-radius: 10px;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+
+    .description{
+        font-size:22px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align:left;
+    }
+    .prize{
+        font-size:22px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align:left;
+    }
+
+    .time{
+        font-size:22px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align:left;
+    }
+
+    .inserttxt{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: lightsalmon;
+        border-radius: 10px;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .textbutton{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: lightsalmon;
+        border-radius: 10px;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -544,7 +673,7 @@
         .ans {
             position:absolute;
             font-size: 40px;
-            top:45%;
+            top:40%;
             left:30%;
         }
 
@@ -559,9 +688,8 @@
             padding: 16px 32px;
             text-align: center;
             text-decoration: none;
-            margin-left: 2%;
-            margin-top: 6%;
-            text-align:center;
+
+
         }
 
             .camera{
@@ -630,8 +758,7 @@
             margin-left: 10px;
             font-size: 12px;
             width: 90%;
-            margin-left: 4%;
-            background-color: orangered;
+            background-color: white;
         }
 
         .TestingText {
@@ -649,7 +776,7 @@
             color: #ffffff;
             font-size: 35px;
             text-decoration: none;
-            text-shadow: 0px 1px 0px #283966;
+            text-shadow: 1px 1px 1px #283966;
            left: 20%;
             padding: 15px 32px;
         }
@@ -664,8 +791,8 @@
             color: #ffffff;
             font-size: 35px;
             text-decoration: none;
-            text-shadow: 0px 1px 0px #283966;
-            left:35%;
+            text-shadow: 1px 1px 1px #283966;
+            left:30%;
             padding: 15px 32px;
         }
     }

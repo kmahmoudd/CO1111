@@ -18,12 +18,21 @@ function getChallenges(){
                 let treasureHunts = jsonObject.treasureHunts;
                 for (let i = 0; i < treasureHunts.length; i++) {
                     let listItem = document.createElement("ul");
+                    listItem.className="listitem";
                     let description = document.createElement("li");
+                    description.className="description";
+
                     let Prize = document.createElement("li");
+                    Prize.className="prize"
+
                     let time = document.createElement("li");
+                    time.className="time";
 
                     let startTime = new Date(treasureHunts[i].startsOn*1000);
+
+
                     let endTime = new Date(treasureHunts[i].endsOn*1000);
+
                     var prizeResult;
                     if(treasureHunts[i].hasPrize){prizeResult = "Yes"}else{prizeResult = "No"}
                     listItem.innerHTML = "<a href='../App/Start.html?treasure-hunt-id="+ treasureHunts[i].uuid + "'>" + treasureHunts[i].name + "</a>";
@@ -159,10 +168,12 @@ function getAnswers(jsonObject){
         case "INTEGER":
             let intAnswer = document.createElement("INPUT");
             intAnswer.type = "Number";
-
+            intAnswer.className="acceptint"
             let submitInt = document.createElement("button");
+            submitInt.className="SubmitNum";
             submitInt.innerText = "Submit";
             submitInt.type = "Button";
+
             submitInt.onclick = function(){
                 console.log("submitted : " + intAnswer.value);
                 checkAnswer(intAnswer.value);
@@ -180,12 +191,12 @@ function getAnswers(jsonObject){
             trueButton.innerText = "True";
             trueButton.type = "Button";
             trueButton.value = "True";
-
+            trueButton.className=  "TrueButton";
             let falseButton = document.createElement("button");
             falseButton.innerText= "False";
             falseButton.type = "Button";
             falseButton.value = "False";
-
+            falseButton.className="FalseButton";
 
             trueButton.onclick = function (){
                 console.log("submitted : " + trueButton.value);
@@ -207,7 +218,6 @@ function getAnswers(jsonObject){
         case "NUMERIC":
             let numAnswer = document.createElement("INPUT");
             numAnswer.type = "Number";
-
             let submitnum = document.createElement("button")
             submitnum.type = "Button";
             submitnum.onclick = function(){
@@ -237,6 +247,7 @@ function getAnswers(jsonObject){
             let b_Button = document.createElement("button");
             b_Button.innerText = "B";
             b_Button.onclick = function(){
+
                 console.log("submitted: " + "B");
                 checkAnswer("B");
                 answers.removeChild(a_Button);
@@ -248,6 +259,7 @@ function getAnswers(jsonObject){
             let c_Button = document.createElement("button");
             c_Button.innerText = "C";
             c_Button.onclick = function(){
+
                 console.log("submitted: " + "C");
                 checkAnswer("C");
                 answers.removeChild(a_Button);
@@ -259,6 +271,7 @@ function getAnswers(jsonObject){
             let d_Button = document.createElement("button");
             d_Button.innerText= "D";
             d_Button.onclick = function(){
+
                 console.log("submitted: " + "D");
                 checkAnswer("D");
                 answers.removeChild(a_Button);
@@ -276,8 +289,9 @@ function getAnswers(jsonObject){
         case "TEXT":
             let txtAnswer = document.createElement("input")
             txtAnswer.type = "Text";
-
+            txtAnswer.className="inserttxt";
             let submitTxt = document.createElement("button");
+            submitTxt.className="textbutton";
             submitTxt.innerText = "Submit";
             submitTxt.onclick = function(){
                 console.log("submitted: " + txtAnswer.value);
