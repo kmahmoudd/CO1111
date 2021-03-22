@@ -14,14 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/ContactUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UnitTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAcceptance.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserAcceptance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/ContactUs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
