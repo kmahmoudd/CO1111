@@ -97,8 +97,7 @@
     }
 
     .Instagramtext {
-        font-size: 20px;
-        margin-bottom: 20%;
+        font-size: 25px;
         text-align: center;
 
 
@@ -106,7 +105,7 @@
 
     .facebook {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
 
     }
 
@@ -277,175 +276,222 @@
         font-size:12px;
         margin-left:4%;
         width: 90%;
+        color:white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
-        background-color:white;
-        border-radius:20px;
+        background-color:orangered;
+        border-radius:10px;
+    }
+
+.table{
+    margin-left:10px;
+    font-size:12px;
+    width:90%;
+    margin-left:4%;
+    background-color:orangered;
+}
+
+.TestingText{
+    font-size:30px;
+    text-align:center;
+}
+    .UserAcceptance {
+        position:absolute;
+        background-color:orangered;
+        border-radius:6px;
+        border:1px solid black;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+        left:10%;
+        padding: 15px 32px;
+    }
+    .UnitTest {
+        position:absolute;
+        background-color:orangered;
+        border-radius:6px;
+        border:1px solid black;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+        margin-left:37%;
+        padding: 15px 32px;
+        right:10%;
+
     }
 
 
 
-    @media only screen and (min-width : 1224px) {
-        body{
+
+    @media only screen and (min-width: 1200px) {
+        body {
             background-color: #ff7700;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
             background-attachment: fixed;
             background-size: cover;
-
         }
 
 
-        .TeamMembers{
+        .TeamMembers {
             font-family: "Lucida Console", "Courier New", monospace;
 
-            margin-top:3%;
-            font-size:17px;
-            margin-left:4%;
+            margin-top: 3%;
+            font-size: 20px;
+            margin-left: 4%;
 
             width: 90%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: center;
-            background-color:white;
-            border-radius:20px;
+            background-color: white;
+            border-radius: 20px;
 
         }
 
-        .twitter{
+        .twitter {
 
-            width:90%;
-            margin-left:3%;
-
+            width: 90%;
+            margin-left: 10%;
 
 
         }
 
-        .AboutUs{
+        .AboutUs {
             font-family: "Lucida Console", "Courier New", monospace;
 
-            top:55%;
-            font-size:15px;
-            margin-left:3%;
+            top: 55%;
+            font-size: 20px;
+            margin-left: 4%;
             width: 90%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: center;
-            background-color:white;
-            border-radius:20px;
+            background-color: white;
+            border-radius: 20px;
         }
 
 
-        .NotesText{
+        .NotesText {
             font-family: "Lucida Console", "Courier New", monospace;
 
-            font-size:23px;
-            margin-left:4%;
+            font-size: 23px;
+            margin-left: 4%;
             width: 90%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: center;
-            background-color:white;
-            border-radius:20px;
+            background-color: white;
+            border-radius: 20px;
         }
+
         ul {
 
             margin: 0;
             padding: 0;
-            border-radius:20px;
+            border-radius: 20px;
 
-            width:100%;
+            width: 100%;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: center;
         }
 
-        .container{
+        .container {
             display: block;
             color: white;
-            font-size:25px;
+            font-size: 35px;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
-        li{
-            list-style-type:none;
+        li {
+            list-style-type: none;
         }
 
-        a{
+        a {
             text-decoration: none;
         }
+
         a:hover {
             color: lightblue;
         }
 
 
-        img{
-
-            width:250px;
-        }
-        .Instagramtext{
-            font-size:20px;
-            margin-bottom:20%;
-            text-align:center;
-
+        img {
+            height:300px;
+            width: 550px;
 
         }
 
-        .facebook{
-            text-align:center;
-            font-size:20px;
+        .Instagramtext {
+            font-size: 45px;
+            text-align: center;
+
 
         }
 
-        .challenges{
+        .facebook {
+            text-align: center;
+            font-size: 45px;
 
-            font-size:32px;
+        }
+
+        .challenges {
+
+            font-size: 32px;
             border-left: 6px solid orangered;
-            background-color:orange;
-            margin-top:10%;
-            margin-left:1%;
+            background-color: orange;
+            margin-top: 5%;
+            margin-left: 1%;
         }
 
-        .challenges1{
-            text-decoration:none;
-            font-size:30px;
-            margin-top:15%;
-            margin-left:1%;
+        .challenges1 {
+            text-decoration: none;
+            font-size: 30px;
+            margin-top: 7%;
+            margin-left: 1%;
         }
 
-        .refreshBTN{
+        .refreshBTN {
 
-            margin-top:5%;
-            margin-left:28%;
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:orangered;
-            border-radius:10px;
+            margin-top: 5%;
+            margin-left: 45%;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 10px;
             color: black;
             padding: 16px 32px;
             text-align: center;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 35px;
 
 
         }
 
 
-        .start{
-            font-family: "Lucida Console", "Courier New", monospace;
-            margin-left:8%;
-
+        .start {
+            font-family: cursive;
+            text-align:center;
+            font-size:30px;
         }
 
-        .entername{
-            font-family: "Lucida Console", "Courier New", monospace;
-            font-size:20px;
+        .entername {
+            font-family: cursive;
+            font-size: 27px;
+            text-align:center;
         }
 
-        .NickName{
-            font-family: "Lucida Console", "Courier New", monospace;
-            font-size:20px;
-            top:30%;
-            left:16%;
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:orangered;
-            border-radius:10px;
+        .NickName {
+            font-family: cursive;
+            font-size: 30px;
+            top: 30%;
+            left: 16%;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 10px;
             color: white;
             padding: 16px 32px;
             text-align: center;
@@ -454,8 +500,8 @@
         }
 
         .startbutton {
-            font-size: 15px;
-
+            font-size: 25px;
+            font-family: cursive;
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: darkorange;
             border-radius: 10px;
@@ -465,72 +511,83 @@
             text-decoration: none;
         }
 
-        .score{
-            margin-top:27%;
-            margin-left:35%;
-            font-size:30px;
+        .score {
+            margin-top: 6%;
+            margin-left: 45%;
+            font-size: 50px;
         }
 
-        .qnum{
-            margin-top:26%;
-            margin-left:15%;
-            font-size:29px;
+        .qnum {
+            margin-top: 6%;
+            margin-left: 40%;
+            font-size: 40px;
         }
 
-        .questiontext{
-            font-size:20px;
+        .questiontext {
+            font-size: 35px;
+            text-align:center;
         }
 
-        .skipbutton{
-
-            font-size:20px;
-
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:orangered;
-            border-radius:20px;
+        .skipbutton {
+            font-size: 35px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 20px;
             color: white;
             padding: 16px 32px;
             text-align: center;
             text-decoration: none;
-            margin-left:30%;
-            margin-top:15%;
+            margin-left: 30%;
+            margin-top: 8%;
         }
 
-        .ans{
-            font-size:20px;
-            margin-top:10%;
+        .ans {
+            position:absolute;
+            font-size: 40px;
+            top:45%;
+            left:30%;
         }
 
-        .answerbox{
-            margin-top:10%;
-            margin-left:7%;
-        }
-        .camera{
-            width:150px;
-            height:500px;
-        }
-
-        .scanbutton{
-
-            font-size:20px;
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:orangered;
-            border-radius:20px;
+        .answerbox {
+            margin-top: 10%;
+            margin-left: 7%;
+            font-size: 20px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 20px;
             color: white;
             padding: 16px 32px;
             text-align: center;
             text-decoration: none;
-            margin-left:30%;
-            margin-bottom:30%;
+            margin-left: 2%;
+            margin-top: 6%;
+            text-align:center;
         }
 
-        .ReloadBTN{
+            .camera{
+                margin-left:20%;
+            }
+        .scanbutton {
 
-            font-size:20px;
+            font-size: 35px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 20px;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 30%;
+            margin-top:8%;
+        }
 
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:orangered;
-            border-radius:20px;
+        .ReloadBTN {
+
+            font-size: 20px;
+
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: orangered;
+            border-radius: 20px;
             color: white;
             padding: 16px 32px;
             text-align: center;
@@ -538,12 +595,12 @@
             margin: 4px 7px;
         }
 
-        .PlayagainBTN{
-            font-size:20px;
+        .PlayagainBTN {
+            font-size: 20px;
 
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            background-color:black;
-            border-radius:20px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: black;
+            border-radius: 20px;
             color: white;
             padding: 16px 32px;
             text-align: center;
@@ -551,11 +608,64 @@
 
         }
 
-        .Leaderboard{
+        .Leaderboard {
 
-            font-size:25px;
+            font-size: 25px;
 
         }
-}
-    /*@media only screen and (min-width: 1000px) {}*/
 
+        .Nielsenher {
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 12px;
+            margin-left: 4%;
+            width: 90%;
+            color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            background-color: orangered;
+            border-radius: 10px;
+        }
+
+        .table {
+            margin-left: 10px;
+            font-size: 12px;
+            width: 90%;
+            margin-left: 4%;
+            background-color: orangered;
+        }
+
+        .TestingText {
+            font-size: 90px;
+            text-align: center;
+        }
+
+        .UserAcceptance {
+            position:absolute;
+            background-color: orangered;
+            border-radius: 6px;
+            border: 1px solid black;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 35px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #283966;
+           left: 20%;
+            padding: 15px 32px;
+        }
+
+        .UnitTest {
+            position:absolute;
+            background-color: orangered;
+            border-radius: 6px;
+            border: 1px solid black;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 35px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #283966;
+            left:35%;
+            padding: 15px 32px;
+        }
+    }
