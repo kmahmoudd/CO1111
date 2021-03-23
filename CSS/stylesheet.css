@@ -1,5 +1,464 @@
 
 
+body {
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.TeamMembers {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    margin-top: 3%;
+    font-size: 12px;
+    margin-left: 4%;
+
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.twitter {
+
+    width: 90%;
+    margin-left: 3%;
+
+
+}
+
+.AboutUs {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    top: 55%;
+    font-size: 12px;
+    margin-left: 3%;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.NotesText {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    font-size: 23px;
+    margin-left: 4%;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.container {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+img {
+
+    width: 250px;
+
+}
+
+.Instagramtext {
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.facebook {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.challenges {
+
+    font-size: 32px;
+    border-left: 6px solid orangered;
+    background-color: orange;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+.challenges1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 15%;
+    margin-left: 1%;
+}
+
+.refreshBTN {
+
+    margin-top: 5%;
+    margin-left: 28%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 10px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+
+
+.start {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 8%;
+
+}
+
+.entername {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+
+.NickName {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    top: 30%;
+    left: 16%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.startbutton {
+    font-size: 15px;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: darkorange;
+    border-radius: 10px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.score {
+    margin-top: 27%;
+    margin-left: 35%;
+    font-size: 30px;
+}
+
+.qnum {
+    margin-top: 26%;
+    margin-left: 15%;
+    font-size: 29px;
+}
+
+.questiontext {
+    font-size: 20px;
+}
+
+.skipbutton {
+
+    font-size: 20px;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.ans {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.answerbox {
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.camera {
+    width: 90%;
+}
+
+.scanbutton {
+
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30%;
+    margin-bottom: 30%;
+}
+
+.ReloadBTN {
+
+    font-size: 20px;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 7px;
+}
+
+.PlayagainBTN {
+    font-size: 20px;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.Leaderboard {
+    text-align:left;
+    font-size: 25px;
+
+}
+.Nielsenher{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:12px;
+    margin-left:4%;
+    width: 90%;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color:orangered;
+    border-radius:10px;
+}
+
+.table{
+
+    font-size:12px;
+    width:90%;
+    margin-left:4%;
+    background-color:white;
+}
+
+.TestingText{
+    font-size:30px;
+    text-align:center;
+}
+.UserAcceptance {
+    position:absolute;
+    background-color:orangered;
+    border-radius:6px;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #283966;
+    left:10%;
+    padding: 15px 32px;
+}
+.UnitTest {
+    position:absolute;
+    background-color:orangered;
+    border-radius:6px;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #283966;
+    margin-left:37%;
+    padding: 15px 32px;
+    right:10%;
+
+}
+.TrueButton{
+
+
+    background-color:white;
+    border-radius:3px;
+    border:3px solid green;
+    left:10%;
+    cursor:pointer;
+    color:green;
+
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+
+    text-shadow:1px 1px 1px #283966;
+}
+.FalseButton{
+    background-color:white;
+    border-radius:3px;
+    border:3px solid darkred;
+    cursor:pointer;
+    color:darkred;
+
+    font-size:19px;
+    padding:12px 37px;
+
+    text-decoration:none;
+    text-shadow:1px 1px 1px #283966;
+
+}
+.SubmitNum{
+    background-color:orangered;
+    border-radius:1px;
+    border:3px solid black;
+    font-size:20px;
+    color:white;
+}
+
+.acceptint{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightsalmon;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.description{
+    font-size:15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align:left;
+}
+.prize{
+    font-size:15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align:left;
+}
+
+.time{
+    font-size:15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align:left;
+}
+
+.inserttxt{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightsalmon;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.textbutton{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightsalmon;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
     body {
         background-color: #ff7700;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
@@ -12,7 +471,7 @@
         font-family: "Lucida Console", "Courier New", monospace;
 
         margin-top: 3%;
-        font-size: 12px;
+        font-size: 20px;
         margin-left: 4%;
 
         width: 90%;
@@ -26,7 +485,7 @@
     .twitter {
 
         width: 90%;
-        margin-left: 3%;
+        margin-left: 10%;
 
 
     }
@@ -35,8 +494,8 @@
         font-family: "Lucida Console", "Courier New", monospace;
 
         top: 55%;
-        font-size: 12px;
-        margin-left: 3%;
+        font-size: 20px;
+        margin-left: 4%;
         width: 90%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
@@ -71,7 +530,7 @@
     .container {
         display: block;
         color: white;
-        font-size: 25px;
+        font-size: 35px;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -91,13 +550,13 @@
 
 
     img {
-
-        width: 250px;
+        height:300px;
+        width: 550px;
 
     }
 
     .Instagramtext {
-        font-size: 25px;
+        font-size: 45px;
         text-align: center;
 
 
@@ -105,7 +564,7 @@
 
     .facebook {
         text-align: center;
-        font-size: 25px;
+        font-size: 45px;
 
     }
 
@@ -114,21 +573,21 @@
         font-size: 32px;
         border-left: 6px solid orangered;
         background-color: orange;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 1%;
     }
 
     .challenges1 {
         text-decoration: none;
         font-size: 30px;
-        margin-top: 15%;
+        margin-top: 7%;
         margin-left: 1%;
     }
 
     .refreshBTN {
 
         margin-top: 5%;
-        margin-left: 28%;
+        margin-left: 45%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: orangered;
         border-radius: 10px;
@@ -136,26 +595,27 @@
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 35px;
 
 
     }
 
 
     .start {
-        font-family: "Lucida Console", "Courier New", monospace;
-        margin-left: 8%;
-
+        font-family: cursive;
+        text-align:center;
+        font-size:30px;
     }
 
     .entername {
-        font-family: "Lucida Console", "Courier New", monospace;
-        font-size: 20px;
+        font-family: cursive;
+        font-size: 27px;
+        text-align:center;
     }
 
     .NickName {
-        font-family: "Lucida Console", "Courier New", monospace;
-        font-size: 20px;
+        font-family: cursive;
+        font-size: 30px;
         top: 30%;
         left: 16%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -169,8 +629,8 @@
     }
 
     .startbutton {
-        font-size: 15px;
-
+        font-size: 25px;
+        font-family: cursive;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: darkorange;
         border-radius: 10px;
@@ -181,25 +641,24 @@
     }
 
     .score {
-        margin-top: 27%;
-        margin-left: 35%;
-        font-size: 30px;
+        margin-top: 6%;
+        margin-left: 45%;
+        font-size: 45px;
     }
 
     .qnum {
-        margin-top: 26%;
-        margin-left: 15%;
-        font-size: 29px;
+        margin-top: 6%;
+        margin-left: 40%;
+        font-size: 40px;
     }
 
     .questiontext {
-        font-size: 20px;
+        font-size: 35px;
+        text-align:center;
     }
 
     .skipbutton {
-
-        font-size: 20px;
-
+        font-size: 35px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: orangered;
         border-radius: 20px;
@@ -208,15 +667,19 @@
         text-align: center;
         text-decoration: none;
         margin-left: 30%;
-        margin-top: 15%;
+        margin-top: 8%;
     }
 
     .ans {
-        font-size: 20px;
-        margin-top: 10%;
+        position:absolute;
+        font-size: 30px;
+        top:30%;
+        left:40%;
     }
 
     .answerbox {
+        margin-top: 10%;
+        margin-left: 7%;
         font-size: 20px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: orangered;
@@ -225,15 +688,16 @@
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
+
+
     }
 
-    .camera {
-        width: 90%;
+    .camera{
+        margin-left:20%;
     }
-
     .scanbutton {
 
-        font-size: 20px;
+        font-size: 35px;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: orangered;
         border-radius: 20px;
@@ -242,7 +706,7 @@
         text-align: center;
         text-decoration: none;
         margin-left: 30%;
-        margin-bottom: 30%;
+        margin-top:8%;
     }
 
     .ReloadBTN {
@@ -273,526 +737,65 @@
     }
 
     .Leaderboard {
-        text-align:left;
+
         font-size: 25px;
 
     }
-    .Nielsenher{
+
+    .Nielsenher {
         font-family: "Lucida Console", "Courier New", monospace;
-        font-size:12px;
-        margin-left:4%;
+        font-size: 12px;
+        margin-left: 4%;
         width: 90%;
-        color:white;
+        color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
-        background-color:orangered;
-        border-radius:10px;
+        background-color: orangered;
+        border-radius: 10px;
     }
 
-.table{
+    .table {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 90%;
+        background-color: white;
+    }
 
-    font-size:12px;
-    width:90%;
-    margin-left:4%;
-    background-color:white;
-}
+    .TestingText {
+        font-size: 90px;
+        text-align: center;
+    }
 
-.TestingText{
-    font-size:30px;
-    text-align:center;
-}
     .UserAcceptance {
         position:absolute;
-        background-color:orangered;
-        border-radius:6px;
-        border:1px solid black;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-size:15px;
-        text-decoration:none;
-        text-shadow:1px 1px 1px #283966;
-        left:10%;
+        background-color: orangered;
+        border-radius: 6px;
+        border: 1px solid black;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 35px;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #283966;
+        left: 20%;
         padding: 15px 32px;
     }
+
     .UnitTest {
         position:absolute;
-        background-color:orangered;
-        border-radius:6px;
-        border:1px solid black;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-size:15px;
-        text-decoration:none;
-        text-shadow:1px 1px 1px #283966;
-        margin-left:37%;
+        background-color: orangered;
+        border-radius: 6px;
+        border: 1px solid black;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 35px;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #283966;
+        left:30%;
         padding: 15px 32px;
-        right:10%;
-
     }
-    .TrueButton{
+}
 
 
-        background-color:white;
-        border-radius:3px;
-        border:3px solid green;
-        left:10%;
-        cursor:pointer;
-        color:green;
 
-        font-size:19px;
-        padding:12px 37px;
-        text-decoration:none;
-
-        text-shadow:1px 1px 1px #283966;
-    }
-    .FalseButton{
-        background-color:white;
-        border-radius:3px;
-        border:3px solid darkred;
-        cursor:pointer;
-        color:darkred;
-
-        font-size:19px;
-        padding:12px 37px;
-
-        text-decoration:none;
-        text-shadow:1px 1px 1px #283966;
-
-    }
-    .SubmitNum{
-        background-color:orangered;
-        border-radius:1px;
-        border:3px solid black;
-        font-size:20px;
-        color:white;
-    }
-
-    .acceptint{
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: lightsalmon;
-        border-radius: 10px;
-        color: white;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-
-    }
-
-
-    .description{
-        font-size:15px;
-        color:white;
-        font-family: Arial, Helvetica, sans-serif ;
-        text-align:left;
-    }
-    .prize{
-        font-size:15px;
-        color:white;
-        font-family: Arial, Helvetica, sans-serif ;
-        text-align:left;
-    }
-
-    .time{
-        font-size:15px;
-        color:white;
-        font-family: Arial, Helvetica, sans-serif ;
-        text-align:left;
-    }
-
-    .inserttxt{
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: lightsalmon;
-        border-radius: 10px;
-        color: white;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-    }
-    .textbutton{
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: lightsalmon;
-        border-radius: 10px;
-        color: white;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media only screen and (min-width: 1200px) {
-        body {
-            background-color: #ff7700;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-
-        .TeamMembers {
-            font-family: "Lucida Console", "Courier New", monospace;
-
-            margin-top: 3%;
-            font-size: 20px;
-            margin-left: 4%;
-
-            width: 90%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            background-color: white;
-            border-radius: 20px;
-
-        }
-
-        .twitter {
-
-            width: 90%;
-            margin-left: 10%;
-
-
-        }
-
-        .AboutUs {
-            font-family: "Lucida Console", "Courier New", monospace;
-
-            top: 55%;
-            font-size: 20px;
-            margin-left: 4%;
-            width: 90%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            background-color: white;
-            border-radius: 20px;
-        }
-
-
-        .NotesText {
-            font-family: "Lucida Console", "Courier New", monospace;
-
-            font-size: 23px;
-            margin-left: 4%;
-            width: 90%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            background-color: white;
-            border-radius: 20px;
-        }
-
-        ul {
-
-            margin: 0;
-            padding: 0;
-            border-radius: 20px;
-
-            width: 100%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-        }
-
-        .container {
-            display: block;
-            color: white;
-            font-size: 35px;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li {
-            list-style-type: none;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: lightblue;
-        }
-
-
-        img {
-            height:300px;
-            width: 550px;
-
-        }
-
-        .Instagramtext {
-            font-size: 45px;
-            text-align: center;
-
-
-        }
-
-        .facebook {
-            text-align: center;
-            font-size: 45px;
-
-        }
-
-        .challenges {
-
-            font-size: 32px;
-            border-left: 6px solid orangered;
-            background-color: orange;
-            margin-top: 5%;
-            margin-left: 1%;
-        }
-
-        .challenges1 {
-            text-decoration: none;
-            font-size: 30px;
-            margin-top: 7%;
-            margin-left: 1%;
-        }
-
-        .refreshBTN {
-
-            margin-top: 5%;
-            margin-left: 45%;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 10px;
-            color: black;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 35px;
-
-
-        }
-
-
-        .start {
-            font-family: cursive;
-            text-align:center;
-            font-size:30px;
-        }
-
-        .entername {
-            font-family: cursive;
-            font-size: 27px;
-            text-align:center;
-        }
-
-        .NickName {
-            font-family: cursive;
-            font-size: 30px;
-            top: 30%;
-            left: 16%;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 10px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-
-        }
-
-        .startbutton {
-            font-size: 25px;
-            font-family: cursive;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: darkorange;
-            border-radius: 10px;
-            color: black;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        .score {
-            margin-top: 6%;
-            margin-left: 45%;
-            font-size: 3px;
-        }
-
-        .qnum {
-            margin-top: 6%;
-            margin-left: 40%;
-            font-size: 40px;
-        }
-
-        .questiontext {
-            font-size: 35px;
-            text-align:center;
-        }
-
-        .skipbutton {
-            font-size: 35px;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 20px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-            margin-left: 30%;
-            margin-top: 8%;
-        }
-
-        .ans {
-            position:absolute;
-            font-size: 30px;
-            top:30%;
-            left:40%;
-        }
-
-        .answerbox {
-            margin-top: 10%;
-            margin-left: 7%;
-            font-size: 20px;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 20px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-
-
-        }
-
-            .camera{
-                margin-left:20%;
-            }
-        .scanbutton {
-
-            font-size: 35px;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 20px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-            margin-left: 30%;
-            margin-top:8%;
-        }
-
-        .ReloadBTN {
-
-            font-size: 20px;
-
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: orangered;
-            border-radius: 20px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-            margin: 4px 7px;
-        }
-
-        .PlayagainBTN {
-            font-size: 20px;
-
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            background-color: black;
-            border-radius: 20px;
-            color: white;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-
-        }
-
-        .Leaderboard {
-
-            font-size: 25px;
-
-        }
-
-        .Nielsenher {
-            font-family: "Lucida Console", "Courier New", monospace;
-            font-size: 12px;
-            margin-left: 4%;
-            width: 90%;
-            color: white;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: center;
-            background-color: orangered;
-            border-radius: 10px;
-        }
-
-        .table {
-            margin-left: 10px;
-            font-size: 12px;
-            width: 90%;
-            background-color: white;
-        }
-
-        .TestingText {
-            font-size: 90px;
-            text-align: center;
-        }
-
-        .UserAcceptance {
-            position:absolute;
-            background-color: orangered;
-            border-radius: 6px;
-            border: 1px solid black;
-            display: inline-block;
-            cursor: pointer;
-            color: #ffffff;
-            font-size: 35px;
-            text-decoration: none;
-            text-shadow: 1px 1px 1px #283966;
-           left: 20%;
-            padding: 15px 32px;
-        }
-
-        .UnitTest {
-            position:absolute;
-            background-color: orangered;
-            border-radius: 6px;
-            border: 1px solid black;
-            display: inline-block;
-            cursor: pointer;
-            color: #ffffff;
-            font-size: 35px;
-            text-decoration: none;
-            text-shadow: 1px 1px 1px #283966;
-            left:30%;
-            padding: 15px 32px;
-        }
-    }
