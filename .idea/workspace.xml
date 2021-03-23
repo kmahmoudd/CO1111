@@ -15,14 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f7760b31-5363-40fd-b4aa-e75dcca17e28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/AvailableTreasureHunts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Start.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/Start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/UnitTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UnitTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/UserAcceptance.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/UserAcceptance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/AppScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/AppScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +120,11 @@
       <workItem from="1616413652573" duration="14000" />
       <workItem from="1616414833127" duration="9202000" />
       <workItem from="1616424349467" duration="7430000" />
-      <workItem from="1616432542833" duration="3606000" />
+      <workItem from="1616432542833" duration="3739000" />
+      <workItem from="1616441187505" duration="74000" />
+      <workItem from="1616487273429" duration="165000" />
+      <workItem from="1616492154123" duration="2206000" />
+      <workItem from="1616494704860" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Added an information section a twitter section and a button thats going to be used to load the challengers on app page">
       <created>1611850715745</created>
@@ -177,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616427650663</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor css changes">
+      <created>1616436264932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616436264932</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,11 @@
     <MESSAGE value="created nielsens heurestics page , added media queries, changed the whole css/design for all the pages and made the pages responsive" />
     <MESSAGE value="TEST" />
     <MESSAGE value="Karim : added cookies and more information about available treasure hunts.&#10;Konstantinos : fixed major design problems." />
-    <option name="LAST_COMMIT_MESSAGE" value="Karim : added cookies and more information about available treasure hunts.&#10;Konstantinos : fixed major design problems." />
+    <MESSAGE value="Minor css changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor css changes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
